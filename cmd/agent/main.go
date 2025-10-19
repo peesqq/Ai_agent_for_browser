@@ -23,7 +23,7 @@ func main() {
 	slowmo := flag.Int("slowmo", 100, "SlowMo in ms for Playwright")
 	flag.Parse()
 
-	apiKey := "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"
+	apiKey := ""
 	if apiKey == "" {
 		fmt.Println("OPENAI_API_KEY is not set")
 		return
