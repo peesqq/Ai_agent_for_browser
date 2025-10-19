@@ -1,0 +1,47 @@
+# --- macOS system files ---
+.DS_Store
+
+# --- Go build artifacts ---
+/bin/
+/build/
+/dist/
+/out/
+/tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# --- Playwright user data ---
+user_data/
+run_artifacts/
+
+# --- IDE & editors ---
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*.log
+
+# --- Node/Playwright dependencies ---
+node_modules/
+package-lock.json
+yarn.lock
+
+# --- Environment & secrets ---
+.env
+.env.local
+.env.*
+*.key
+*.pem
+
+# --- Cache ---
+__pycache__/
+.cache/
+*.tmp
+*.bak
+*.old
