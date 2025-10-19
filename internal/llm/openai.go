@@ -32,7 +32,7 @@ func NewOpenRouterClient(model string) Client {
 	if base == "" {
 		base = "https://openrouter.ai/api/v1"
 	}
-	apiKey := "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" //hardcode
+	apiKey := "" //hardcode
 	if apiKey == "" {
 		apiKey = os.Getenv("OPENAI_API_KEY")
 	}
